@@ -142,3 +142,12 @@
 /Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRApi/obj/Debug/net8.0/SignalRApi.pdb
 /Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRApi/obj/Debug/net8.0/SignalRApi.genruntimeconfig.cache
 /Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRApi/obj/Debug/net8.0/ref/SignalRApi.dll
+/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRApi/bin/Debug/net8.0/AutoMapper.dll
+/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRApi/bin/Debug/net8.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRApi/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRApi/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRApi/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRApi/bin/Debug/net8.0/Microsoft.Extensions.Primitives.dll
+/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRApi/bin/Debug/net8.0/System.Diagnostics.DiagnosticSource.dll
+/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRApi/bin/Debug/net8.0/DTOLayer.dll
+/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRApi/bin/Debug/net8.0/DTOLayer.pdb
