@@ -7,7 +7,7 @@ public class SignalRContext : DbContext
 {
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Server=localhost,53291;Database=SignalRDb;User Id=sa;Password=Furkan12*;TrustServerCertificate=True;");
+        optionsBuilder.UseSqlServer("Server=localhost,1995;Database=SignalRDb;User Id=sa;Password=Furkan12*;TrustServerCertificate=True;");
     }
     
     public DbSet<About> Abouts { get; set; }
