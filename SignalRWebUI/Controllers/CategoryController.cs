@@ -1,3 +1,4 @@
+using System.Text;
 using System.Text.Json.Serialization;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
@@ -24,5 +25,26 @@ public class CategoryController : Controller
             return View(values);
         }
         return View(new List<ResultCategoryDto>());
+    }
+
+    [HttpGet]
+    public IActionResult CreateCategory()
+    {
+        return View();
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> CreateCategory(CreateCategoryDto createCategoryDto)
+    {
+        createCategoryDto.Status = true;
+        var client = _httpClientFactory.CreateClient();
+        var JsonData = JsonConvert.SerializeObject(createCategoryDto);
+        StringContent stringContent = new StringContent(JsonData, Encoding.UTF8, "application/json");
+        var responsemessage = await client.PostAsync("http://localhost:5013/api/Category", stringContent);
+        if (responsemessage.IsSuccessStatusCode)
+        {
+            return RedirectToAction("Index");
+        }
+        return View();
     }
 }
