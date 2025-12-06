@@ -47,4 +47,15 @@ public class CategoryController : Controller
         }
         return View();
     }
+
+    public async Task<IActionResult> DeleteCategory(int id)
+    {
+        var client = _httpClientFactory.CreateClient();
+        var responsemessage = await client.DeleteAsync($"http://localhost:5013/api/Category/{id}");
+        if (responsemessage.IsSuccessStatusCode)
+        {
+            return RedirectToAction("Index");
+        }
+        return View();
+    }
 }
