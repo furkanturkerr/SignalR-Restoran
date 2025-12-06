@@ -45,7 +45,7 @@ public class CategoryController : ControllerBase
         return Ok("Kategori silindi");
     }
     
-    [HttpGet("GetCategory")]
+    [HttpGet("{id}")]
     public IActionResult GetCategory(int id)
     {
         var value = _categoryService.TGetById(id);
