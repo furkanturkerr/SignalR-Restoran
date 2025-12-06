@@ -34,8 +34,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/Views/Shared/Components/_LayoutFooterPartialComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0xheW91dEZvb3RlclBhcnRpYWxDb21wb25lbnQvRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/Views/Shared/Components/_LayoutHeaderPartialComponent/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0xheW91dEhlYWRlclBhcnRpYWxDb21wb25lbnQvRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/Views/Shared/Components/_LayoutNavbarPartialComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0xheW91dE5hdmJhclBhcnRpYWxDb21wb25lbnQvRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/Views/Shared/Components/_LayoutScriptPartialComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0xheW91dFNjcmlwdFBhcnRpYWxDb21wb25lbnQvRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/Views/Shared/Components/_LayoutSidebarPartialComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0xheW91dFNpZGViYXJQYXJ0aWFsQ29tcG9uZW50L0RlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/Views/Shared/Error.cshtml]
