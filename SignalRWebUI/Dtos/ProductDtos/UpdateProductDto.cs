@@ -1,4 +1,4 @@
-namespace DTOLayer.ProductDTO;
+namespace SignalRWebUI.Dtos.ProductDtos;
 
 public class UpdateProductDto
 {
