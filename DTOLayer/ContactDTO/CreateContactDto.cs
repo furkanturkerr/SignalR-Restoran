@@ -6,5 +6,4 @@ public class CreateContactDto
     public string PhoneNumber { get; set; }
     public string Mail { get; set; }
     public string FooterDescription { get; set; }
-    public string SocialMedia { get; set; }
 }

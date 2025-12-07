@@ -34,14 +34,13 @@ namespace SignalRApi.Controllers
             {
                 Location = createContactDto.Location,
                 FooterDescription = createContactDto.FooterDescription,
-                SocialMedia = createContactDto.SocialMedia,
                 PhoneNumber = createContactDto.PhoneNumber,
                 Mail = createContactDto.Mail
             });
             return Ok("İletişim bilgisi eklendi");
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public IActionResult DeleteContact(int id)
         {
             var value = _contactService.TGetById(id);
@@ -49,7 +48,7 @@ namespace SignalRApi.Controllers
             return Ok("İletişim bilgisi silindi");
         }
     
-        [HttpGet("GetContact")]
+        [HttpGet("{id}")]
         public IActionResult GetContact(int id)
         {
             var value = _contactService.TGetById(id);
@@ -59,11 +58,11 @@ namespace SignalRApi.Controllers
         [HttpPut]
         public IActionResult UpdateContact(UpdateContactDto updateContactDto)
         {
-            _contactService.TAdd(new Contact()
+            _contactService.TUpdate(new Contact()
             {
+                ContactId = updateContactDto.ContactId,
                 Location = updateContactDto.Location,
                 FooterDescription = updateContactDto.FooterDescription,
-                SocialMedia = updateContactDto.SocialMedia,
                 PhoneNumber = updateContactDto.PhoneNumber,
                 Mail = updateContactDto.Mail
             });
