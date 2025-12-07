@@ -8,5 +8,5 @@ public class UpdateProductDto
     public string ImageUrl { get; set; }
     public decimal Price { get; set; }
     public bool Status { get; set; }
-    public string CategoryId { get; set; }
+    public int CategoryId { get; set; }
 }

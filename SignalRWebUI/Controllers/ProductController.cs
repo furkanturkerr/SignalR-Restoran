@@ -76,6 +76,16 @@ public class ProductController : Controller
     [HttpGet]
     public async Task<IActionResult> UpdateProduct(int id)
     {
+        var client1 = _httpClientFactory.CreateClient();
+        var responsemessage1 = await client1.GetAsync("http://localhost:5013/api/Category");
+        var jsonData = await responsemessage1.Content.ReadAsStringAsync();
+        var values1 = JsonConvert.DeserializeObject<List<ResultCategoryDto>>(jsonData);
+        List<SelectListItem> values2 = (from x in values1 select new SelectListItem
+        {
+            Text = x.CategoryName,
+            Value = x.CategoryId.ToString()
+        }).ToList();
+        ViewBag.v = values2;
         var client = _httpClientFactory.CreateClient();
         var responsemessage = await client.GetAsync($"http://localhost:5013/api/Product/{id}");
         if (responsemessage.IsSuccessStatusCode)
