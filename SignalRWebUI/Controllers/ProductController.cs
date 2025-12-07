@@ -1,5 +1,6 @@
 using System.Text;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Newtonsoft.Json;
 using SignalRWebUI.Dtos.CategoryDtos;
 using SignalRWebUI.Dtos.ProductDtos;
@@ -29,8 +30,18 @@ public class ProductController : Controller
     }
     
      [HttpGet]
-    public IActionResult CreateProduct()
+    public async Task<IActionResult> CreateProduct()
     {
+        var client = _httpClientFactory.CreateClient();
+        var responsemessage = await client.GetAsync("http://localhost:5013/api/Category");
+        var jsonData = await responsemessage.Content.ReadAsStringAsync();
+        var values = JsonConvert.DeserializeObject<List<ResultCategoryDto>>(jsonData);
+        List<SelectListItem> values2 = (from x in values select new SelectListItem
+        {
+            Text = x.CategoryName,
+            Value = x.CategoryId.ToString()
+        }).ToList();
+        ViewBag.v = values2;
         return View();
     }
 

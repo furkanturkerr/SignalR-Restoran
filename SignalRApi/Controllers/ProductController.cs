@@ -53,7 +53,8 @@ namespace SignalRApi.Controllers
                Price = createProductDto.Price,
                ProductDescription = createProductDto.ProductDescription,
                ProductName = createProductDto.ProductName,
-               Status = createProductDto.Status
+               Status = createProductDto.Status,
+               CategoryId = createProductDto.CategoryId
             });
             return Ok("Ürün bilgisi eklendi");
         }
