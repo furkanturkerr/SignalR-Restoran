@@ -9,4 +9,9 @@ public class SignalRDefaultController : Controller
     {
         return View();
     }
+    
+    public IActionResult Index2()
+    {
+        return View();
+    }
 }
