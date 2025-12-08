@@ -4,6 +4,7 @@ using BusinessLayer.Concrate;
 using DataAccessLayer.Abstract;
 using DataAccessLayer.Concrate;
 using DataAccessLayer.EntityFramework;
+using SignalRApi.Hubs;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -57,6 +58,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseCors("CorsPolicy");
+app.MapHub<SignalRHub>("/signalrhub");
 
 app.UseHttpsRedirection();
 
