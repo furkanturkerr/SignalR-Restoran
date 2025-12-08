@@ -32,3 +32,4 @@
 /Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/bin/Debug/net8.0/Newtonsoft.Json.dll
 /Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/obj/Debug/net8.0/SignalRWebUI.csproj.AssemblyReference.cache
 /Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/obj/Debug/net8.0/SignalRW.9B480C9A.Up2Date
+/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/bin/Debug/net8.0/libman.json
