@@ -40,4 +40,9 @@ public class ProductManager : IProductService
     {
         return _productDal.GetProductWithCategories();
     }
+
+    public int TProductCount()
+    {
+        return _productDal.ProductCount();
+    }
 }

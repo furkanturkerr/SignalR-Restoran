@@ -35,4 +35,19 @@ public class CategoryManager : ICategoryService
     {
         return _categoryDal.GetById(id);
     }
+
+    public int TCategoryCount()
+    {
+        return _categoryDal.CategoryCount();
+    }
+
+    public int TActiveCategoryCount()
+    {
+        return _categoryDal.ActiveCategoryCount();
+    }
+
+    public int TPassiveCategoryCount()
+    {
+        return _categoryDal.PassiveCategoryCount();
+    }
 }
