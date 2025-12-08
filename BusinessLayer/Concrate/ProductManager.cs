@@ -7,6 +7,8 @@ namespace BusinessLayer.Concrate;
 public class ProductManager : IProductService
 {
     private readonly IProductDal _productDal;
+    private IProductService _productServiceImplementation;
+
     public ProductManager(IProductDal productDal)
     {
         _productDal = productDal;
@@ -54,5 +56,20 @@ public class ProductManager : IProductService
     public int TProductCountByCategoryNameDrink()
     {
         return _productDal.ProductCountByCategoryNameDrink();
+    }
+
+    public decimal TProductPriceAvg()
+    {
+        return _productDal.ProductPriceAvg();
+    }
+
+    public string TProducNameByPriceMax()
+    {
+        return _productDal.ProducNameByPriceMax();
+    }
+
+    public string TProducNameByPriceMin()
+    {
+        return _productDal.ProducNameByPriceMin();
     }
 }
