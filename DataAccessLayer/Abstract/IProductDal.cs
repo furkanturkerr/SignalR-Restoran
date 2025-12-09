@@ -11,4 +11,5 @@ public interface IProductDal : IGenericDal<Product>
     decimal ProductPriceAvg();
     string ProducNameByPriceMax();
     string ProducNameByPriceMin();
+    decimal ProductPriceByHamburger();
 }
