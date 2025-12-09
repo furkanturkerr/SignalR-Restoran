@@ -22,4 +22,10 @@ public class EfOrderDal : GenericRepository<Order> , IOrderDal
         using var context = new SignalRContext();
         return context.Orders.Where(x => x.Description == "Müşteri Masada").Count();
     }
+
+    public decimal LastOrderTotalPrice()
+    {
+        using var context = new SignalRContext();
+        return context.Orders.OrderByDescending(x=>x.OrderId).Take(1).Select(y=>y.TotalPrice).FirstOrDefault();
+    }
 }

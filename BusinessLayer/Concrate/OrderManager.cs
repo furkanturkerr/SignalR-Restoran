@@ -45,4 +45,9 @@ public class OrderManager : IOrderService
     {
         return _orderDal.ActiveOrderCount();
     }
+
+    public decimal TLastOrderTotalPrice()
+    {
+        return _orderDal.LastOrderTotalPrice();
+    }
 }
