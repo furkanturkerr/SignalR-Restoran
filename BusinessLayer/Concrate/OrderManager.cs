@@ -35,4 +35,14 @@ public class OrderManager : IOrderService
     {
         return _orderDal.GetById(id);
     }
+
+    public int TTotalOrderCount()
+    {
+        return _orderDal.TotalOrderCount();
+    }
+
+    public int TActiveOrderCount()
+    {
+        return _orderDal.ActiveOrderCount();
+    }
 }
