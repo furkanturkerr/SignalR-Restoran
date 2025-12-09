@@ -7,4 +7,5 @@ public interface IOrderService : IGenericService<Order>
     int TTotalOrderCount();
     int TActiveOrderCount();
     decimal TLastOrderTotalPrice();
+    decimal TTodayTotalPrice();
 }

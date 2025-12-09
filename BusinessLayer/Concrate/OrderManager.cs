@@ -50,4 +50,9 @@ public class OrderManager : IOrderService
     {
         return _orderDal.LastOrderTotalPrice();
     }
+
+    public decimal TTodayTotalPrice()
+    {
+        return _orderDal.TodayTotalPrice();
+    }
 }

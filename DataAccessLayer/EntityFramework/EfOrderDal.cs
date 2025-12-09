@@ -28,4 +28,10 @@ public class EfOrderDal : GenericRepository<Order> , IOrderDal
         using var context = new SignalRContext();
         return context.Orders.OrderByDescending(x=>x.OrderId).Take(1).Select(y=>y.TotalPrice).FirstOrDefault();
     }
+
+    public decimal TodayTotalPrice()
+    {
+        using var context = new SignalRContext();
+        return context.Orders.Where(x=>x.Date==DateTime.Now.Date).Sum(y=>y.TotalPrice);
+    }
 }
