@@ -193,6 +193,26 @@ namespace DataAccessLayer.Migrations
                     b.ToTable("Features");
                 });
 
+            modelBuilder.Entity("EntityLayer.Entities.MenuTable", b =>
+                {
+                    b.Property<int>("MenuTableId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("MenuTableId"));
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("Status")
+                        .HasColumnType("bit");
+
+                    b.HasKey("MenuTableId");
+
+                    b.ToTable("MenuTables");
+                });
+
             modelBuilder.Entity("EntityLayer.Entities.MoneyCase", b =>
                 {
                     b.Property<int>("MoneyCaseId")
