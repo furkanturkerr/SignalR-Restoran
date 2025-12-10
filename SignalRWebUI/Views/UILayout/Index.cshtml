@@ -1,0 +1,15 @@
+@model dynamic
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+@await Component.InvokeAsync("_UILayoutHeadComponentPartial")
+
+@await Component.InvokeAsync("_UILayoutNavbarComponent")
+@RenderBody()
+@await Component.InvokeAsync("_UILayoutFooterComponentPartial")
+@await Component.InvokeAsync("_UILayoutScriptComponentPartial")
+</html>

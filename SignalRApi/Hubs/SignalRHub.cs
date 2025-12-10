@@ -68,4 +68,16 @@ public class SignalRHub: Hub
         var value16 = _menuTableService.MenuTableCount();
         await Clients.All.SendAsync("ReceiveMenuTableCount", value16);
     }
+    
+    public async Task SendProgress()
+    {
+        var value = _moneyCaseService.TMoneyCaseTotalPrice();
+        await Clients.All.SendAsync("ReceiveMoneyCaseTotalPrice", value.ToString("0.00" + "₺"));
+        
+        var value2 = _menuTableService.MenuTableCount();
+        await Clients.All.SendAsync("ReceiveMenuTableCount", value2);
+        
+        var value3 = _orderService.TActiveOrderCount();
+        await Clients.All.SendAsync("ReceiveActiveOrderCount", value3);
+    }
 }

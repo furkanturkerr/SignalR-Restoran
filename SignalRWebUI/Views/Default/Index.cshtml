@@ -1,0 +1,12 @@
+@model dynamic
+
+@{
+    Layout = "~/Views/UILayout/Index.cshtml";
+}
+
+@await Component.InvokeAsync("_SliderComponetPartial")
+
+@* Closing hero_area div opened in navbar *@
+@Html.Raw("</div>")
+
+@await Component.InvokeAsync("_OfferComponentPartial")
