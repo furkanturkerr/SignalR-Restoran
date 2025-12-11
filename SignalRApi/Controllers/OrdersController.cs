@@ -2,8 +2,8 @@ using BusinessLayer.Abstract;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace SignalRApi.Controllers;
-
+namespace SignalRApi.Controllers
+{
     [Route("api/[controller]")]
     [ApiController]
     public class OrdersController : ControllerBase
@@ -42,3 +42,4 @@ namespace SignalRApi.Controllers;
             return Ok(values);
         }
     }
+}
