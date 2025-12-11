@@ -50,7 +50,7 @@
                     <h6>
                       @item.Price₺
                     </h6>
-                    <a href="/Menu/Index/" onclick="showproductid(@item.ProductId)">
+                    <a style="cursor: pointer" onclick="showproductid(@item.ProductId)">
                       <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve">
                         <g>
                           <g>
@@ -122,7 +122,20 @@
 @await Component.InvokeAsync("_UILayoutFooterComponentPartial")
 @await Component.InvokeAsync("_UILayoutScriptComponentPartial")
 
-
+<script>
+  function showproductid(value){
+    var id = value;
+    $.ajax({
+      type: "POST",
+      data: {itemId: id},
+      contentType: "application/json",
+      success: function(data){
+        swal("Seçilen Ürün ID:" + id, "Sepete Eklendi", "success");
+      }
+    })
+  }
+</script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
 
 </html>
