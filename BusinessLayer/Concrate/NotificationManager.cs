@@ -40,4 +40,9 @@ public class NotificationManager : INotificationService
     {
         return _notificationDal.NotificationCountByStatusFalse();
     }
+
+    public List<Notification> TGetAllNotificationsByFalse()
+    {
+        return _notificationDal.GetAllNotificationsByFalse();
+    }
 }
