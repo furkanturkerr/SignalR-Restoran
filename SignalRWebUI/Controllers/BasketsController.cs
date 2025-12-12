@@ -30,4 +30,5 @@ public class BasketsController : Controller
 
         return View(new List<ResultBasketDto>());
     }
+    
 }
