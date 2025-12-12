@@ -1,4 +1,5 @@
 using System.Reflection;
+using System.Text.Json.Serialization;
 using BusinessLayer.Abstract;
 using BusinessLayer.Concrate;
 using DataAccessLayer.Abstract;
@@ -55,6 +56,14 @@ builder.Services.AddScoped<ISliderService, SliderManager>();
 builder.Services.AddScoped<ISliderDal, EfSliderDal>();
 builder.Services.AddScoped<IBasketDal, EfBasketDal>();
 builder.Services.AddScoped<IBasketService, BasketManager>();
+
+// Source - https://stackoverflow.com/a/70054135
+// Posted by Vicktor, modified by community. See post 'Timeline' for change history
+// Retrieved 2025-12-12, License - CC BY-SA 4.0
+
+builder.Services.AddControllersWithViews()
+    .AddJsonOptions(options => options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
+
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
