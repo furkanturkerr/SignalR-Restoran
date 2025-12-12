@@ -11,11 +11,11 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Pages\" />
+      <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj" />
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj" />
+      <Folder Include="Pages\" />
     </ItemGroup>
 
 </Project>
