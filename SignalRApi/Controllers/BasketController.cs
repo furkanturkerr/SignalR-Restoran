@@ -1,5 +1,7 @@
 using BusinessLayer.Abstract;
 using DataAccessLayer.Concrate;
+using DTOLayer.BasketDTO;
+using EntityLayer.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -40,6 +42,22 @@ namespace SignalRApi.Controllers
                     TotalPrice = x.TotalPrice
                 }).ToList();
             return Ok(values);
+        }
+
+        [HttpPost]
+        public IActionResult CreateBasket(CreateBasketDto createBasketDto)
+        {
+            using var context = new SignalRContext();
+            _basketService.TAdd(new Basket()
+            {
+                ProductId = createBasketDto.ProductId,
+                Count = 1,
+                MenuTableId = 1,
+                Price = context.Products.Where(x=>x.ProductId == createBasketDto.ProductId)
+                    .Select(y=>y.Price).FirstOrDefault(),
+                TotalPrice = 0
+            });
+            return Ok();
         }
     }
 }
