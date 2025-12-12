@@ -14,4 +14,8 @@
       <Folder Include="Pages\" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj" />
+    </ItemGroup>
+
 </Project>
