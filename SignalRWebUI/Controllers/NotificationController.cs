@@ -90,4 +90,20 @@ public class NotificationController : Controller
 
         return View();
     }
+    
+    [HttpGet]
+    public async Task<IActionResult> NotificationRead(int id)
+    {
+        var client = _httpClientFactory.CreateClient();
+        var responsemessage = await client.GetAsync($"http://localhost:5013/api/Notification/NotificationRead/{id}");
+        return RedirectToAction("Index");
+    }
+    
+    [HttpGet]
+    public async Task<IActionResult> NotNotificationRead(int id)
+    {
+        var client = _httpClientFactory.CreateClient();
+        var responsemessage = await client.GetAsync($"http://localhost:5013/api/Notification/NotNotificationRead/{id}");
+        return RedirectToAction("Index");
+    }
 }
