@@ -79,5 +79,19 @@ namespace SignalRApi.Controllers
             _notificationService.TUpdate(notification);
             return Ok("Bildirim güncellendi");
         }
+
+        [HttpGet("NotificationRead/{id}")]
+        public IActionResult NotificationRead(int id)
+        {
+            _notificationService.TNotificationRead(id);
+            return Ok("Bildirim okundu");
+        }
+        
+        [HttpGet("NotNotificationRead/{id}")]
+        public IActionResult NotNotificationRead(int id)
+        {
+            _notificationService.TNotNotificationRead(id);
+            return Ok("Bildirim okunmadı");
+        }
     }
 }

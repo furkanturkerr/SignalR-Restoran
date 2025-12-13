@@ -22,4 +22,20 @@ public class EfNotificationDal : GenericRepository<Notification>, INotificationD
         using var context = new SignalRContext();
         return context.Notifications.Where(x => x.Status == false).ToList();
     }
+
+    public void NotificationRead(int id)
+    {
+        using var context = new SignalRContext();
+        var values = context.Notifications.Find(id);
+        values.Status = true;
+        context.SaveChanges();
+    }
+
+    public void NotNotificationRead(int id)
+    {
+        using var context = new SignalRContext();
+        var values = context.Notifications.Find(id);
+        values.Status = false;
+        context.SaveChanges();
+    }
 }

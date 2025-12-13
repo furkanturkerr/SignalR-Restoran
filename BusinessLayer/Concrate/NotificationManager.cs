@@ -45,4 +45,14 @@ public class NotificationManager : INotificationService
     {
         return _notificationDal.GetAllNotificationsByFalse();
     }
+
+    public void TNotificationRead(int id)
+    {
+        _notificationDal.NotificationRead(id);
+    }
+
+    public void TNotNotificationRead(int id)
+    {
+        _notificationDal.NotNotificationRead(id);
+    }
 }
