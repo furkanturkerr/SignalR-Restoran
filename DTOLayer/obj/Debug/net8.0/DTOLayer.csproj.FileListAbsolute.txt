@@ -10,3 +10,7 @@
 /Users/furkanturker/RiderProjects/UdemySignalRProject/DTOLayer/obj/Debug/net8.0/refint/DTOLayer.dll
 /Users/furkanturker/RiderProjects/UdemySignalRProject/DTOLayer/obj/Debug/net8.0/DTOLayer.pdb
 /Users/furkanturker/RiderProjects/UdemySignalRProject/DTOLayer/obj/Debug/net8.0/ref/DTOLayer.dll
+/Users/furkanturker/RiderProjects/UdemySignalRProject/DTOLayer/bin/Debug/net8.0/EntityLayer.dll
+/Users/furkanturker/RiderProjects/UdemySignalRProject/DTOLayer/bin/Debug/net8.0/EntityLayer.pdb
+/Users/furkanturker/RiderProjects/UdemySignalRProject/DTOLayer/obj/Debug/net8.0/DTOLayer.csproj.AssemblyReference.cache
+/Users/furkanturker/RiderProjects/UdemySignalRProject/DTOLayer/obj/Debug/net8.0/DTOLayer.csproj.Up2Date

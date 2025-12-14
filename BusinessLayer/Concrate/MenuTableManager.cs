@@ -28,12 +28,12 @@ public class MenuTableManager : IMenuTableService
 
     public List<MenuTable> TGetListAll()
     {
-        throw new NotImplementedException();
+        return _menuTableDal.GetListAll();
     }
 
     public MenuTable TGetById(int id)
     {
-        throw new NotImplementedException();
+        return _menuTableDal.GetById(id);
     }
 
     public int MenuTableCount()

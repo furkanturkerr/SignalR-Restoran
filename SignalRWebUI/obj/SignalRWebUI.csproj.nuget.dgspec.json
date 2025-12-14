@@ -112,7 +112,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/furkanturker/RiderProjects/UdemySignalRProject/EntityLayer/EntityLayer.csproj": {
+                "projectPath": "/Users/furkanturker/RiderProjects/UdemySignalRProject/EntityLayer/EntityLayer.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
