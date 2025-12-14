@@ -134,6 +134,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWVudVRhYmxlL1VwZGF0ZU1lbnVUYWJsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/Views/Message/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWVzc2FnZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/Views/Notification/CreateNotification.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTm90aWZpY2F0aW9uL0NyZWF0ZU5vdGlmaWNhdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
