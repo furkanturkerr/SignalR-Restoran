@@ -91,4 +91,19 @@ private readonly IHttpClientFactory _httpClientFactory;
 
         return View();
     }
+    
+    [HttpGet("TableListByStatus")]
+    public async Task<IActionResult> TableListByStatus()
+    {
+        var client = _httpClientFactory.CreateClient();
+        var responsemessage = await client.GetAsync("http://localhost:5013/api/MenuTable");
+        if (responsemessage.IsSuccessStatusCode)
+        {
+            var jsonData = await responsemessage.Content.ReadAsStringAsync();
+            var values = JsonConvert.DeserializeObject<List<ResultMenuTableDto>>(jsonData);
+            return View(values);
+        }
+
+        return View(new List<ResultMenuTableDto>());
+    }
 }
