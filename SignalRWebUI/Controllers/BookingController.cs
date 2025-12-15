@@ -38,6 +38,7 @@ public class BookingController : Controller
     [HttpPost]
     public async Task<IActionResult> CreateBooking(CreateBookingDto createBookingDto)
     {
+        createBookingDto.Description = "Rezervasyon alındı";
         var client = _httpClientFactory.CreateClient();
         var JsonData = JsonConvert.SerializeObject(createBookingDto);
         StringContent stringContent = new StringContent(JsonData, Encoding.UTF8, "application/json");
@@ -80,6 +81,7 @@ public class BookingController : Controller
     [HttpPost]
     public async Task<IActionResult> UpdateBooking(UpdateBookingDto updateBookingDto)
     {
+        updateBookingDto.Description = "Rezervasyon alındı";
         var client = _httpClientFactory.CreateClient();
         var jsonData = JsonConvert.SerializeObject(updateBookingDto);
         StringContent stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
@@ -90,5 +92,21 @@ public class BookingController : Controller
         }
 
         return View();
+    }
+
+    public async Task<IActionResult> BookingStatusApprove(int id)
+    {
+        var client = _httpClientFactory.CreateClient();
+        await client.GetAsync($"http://localhost:5013/api/Booking/BookingStatusApprove/{id}");
+        return RedirectToAction("Index");
+
+    }
+    
+    public async Task<IActionResult> BookingStatusReject(int id)
+    {
+        var client = _httpClientFactory.CreateClient();
+        await client.GetAsync($"http://localhost:5013/api/Booking/BookingStatusReject/{id}");
+        return RedirectToAction("Index");
+
     }
 }

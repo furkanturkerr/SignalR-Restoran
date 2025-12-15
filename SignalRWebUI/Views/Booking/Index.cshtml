@@ -49,8 +49,8 @@
                                     <td>${item.description}</td>
                                     <td><a href="/Booking/DeleteBooking/${item.bookingId}" class="btn btn-outline-danger">Sil</a></td>
                                     <td><a href="/Booking/UpdateBooking/${item.bookingId}" class="btn btn-outline-success">Güncelle</a></td>
-                                    <td><a href="/Booking/UpdateBooking/${item.bookingId}" class="btn btn-outline-info">Onayla</a></td>
-                                    <td><a href="/Booking/UpdateBooking/${item.bookingId}" class="btn btn-outline-dark">İptal Et</a></td>
+                                    <td><a href="/Booking/BookingStatusApprove/${item.bookingId}" class="btn btn-outline-info">Onayla</a></td>
+                                    <td><a href="/Booking/BookingStatusReject/${item.bookingId}" class="btn btn-outline-dark">İptal Et</a></td>
                                     </tr>`
                     });
                     tablehtml+="</tbody></table>";

@@ -30,7 +30,8 @@ public class BookingController : Controller
             Mail = createBookingDto.Mail,
             Date = createBookingDto.Date,
             PersonCount = createBookingDto.PersonCount,
-            Phone = createBookingDto.Phone
+            Phone = createBookingDto.Phone,
+            Description = createBookingDto.Description
         };
         _bookingService.TAdd(booking);
         return Ok("Rezervasyon Yapıldı");
@@ -54,7 +55,8 @@ public class BookingController : Controller
             Mail = updateBookingDto.Mail,
             Date = updateBookingDto.Date,
             PersonCount = updateBookingDto.PersonCount,
-            Phone = updateBookingDto.Phone
+            Phone = updateBookingDto.Phone,
+            Description = updateBookingDto.Description
         };
         _bookingService.TUpdate(booking);
         return Ok("Rezervasyon Güncellendi");
@@ -65,5 +67,19 @@ public class BookingController : Controller
     {
         var value = _bookingService.TGetById(id);
         return Ok(value);
+    }
+
+    [HttpGet("BookingStatusApprove/{id}")]
+    public IActionResult BookingStatusApprove(int id)
+    {
+        _bookingService.TBookingStatusApprove(id);
+        return Ok("Açıklama Değiştirildi");
+    }
+    
+    [HttpGet("BookingStatusReject/{id}")]
+    public IActionResult BookingStatusReject(int id)
+    {
+        _bookingService.TBookingStatusReject(id);
+        return Ok("Açıklama Değiştirildi");
     }
 }

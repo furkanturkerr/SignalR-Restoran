@@ -35,4 +35,14 @@ public class BookingManager : IBookingService
     {
         return _bookingDal.GetById(id);
     }
+
+    public void TBookingStatusApprove(int id)
+    {
+        _bookingDal.BookingStatusApprove(id);
+    }
+
+    public void TBookingStatusReject(int id)
+    {
+        _bookingDal.BookingStatusReject(id);
+    }
 }
