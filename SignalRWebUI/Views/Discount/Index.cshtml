@@ -36,7 +36,14 @@
                                     <td>@item.DiscountId</td>
                                     <td>@item.Title</td>
                                     <td>@item.Amount</td>
-                                    <td><a href="/Discount/DeleteDiscount/@item.DiscountId" class="btn btn-outline-warning">Durum</a></td>
+                                    @if (@item.Status == false)
+                                    {
+                                        <td><a href="/Discount/ChangeStatusTrue/@item.DiscountId" class="btn btn-outline-primary">Aktif Yap</a></td>
+                                    }
+                                    else
+                                    {
+                                        <td><a href="/Discount/ChangeStatusFalse/@item.DiscountId" class="btn btn-outline-warning">Pasif Yap</a></td>
+                                    }
                                     <td><a href="/Discount/DeleteDiscount/@item.DiscountId" class="btn btn-outline-danger">Sil</a></td>
                                     <td><a href="/Discount/UpdateDiscount/@item.DiscountId" class="btn btn-outline-success">Güncelle</a></td>
                                 </tr>

@@ -91,4 +91,18 @@ public class DiscountController : Controller
 
         return View();
     }
+    
+    public async Task<IActionResult> ChangeStatusTrue(int id)
+    {
+        var client = _httpClientFactory.CreateClient();
+        var responsemessage = await client.GetAsync($"http://localhost:5013/api/Discount/ChangeStatusTrue/{id}");
+        return RedirectToAction("Index");
+    }
+    
+    public async Task<IActionResult> ChangeStatusFalse(int id)
+    {
+        var client = _httpClientFactory.CreateClient();
+        var responsemessage = await client.GetAsync($"http://localhost:5013/api/Discount/ChangeStatusFalse/{id}");
+        return RedirectToAction("Index");
+    }
 }
