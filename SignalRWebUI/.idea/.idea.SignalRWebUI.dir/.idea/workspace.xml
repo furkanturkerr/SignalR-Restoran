@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9b1194e5-4856-4cf6-a202-9fb759a9916e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../EntityLayer/Entities/AppRole.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EntityLayer/Entities/AppUser.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controllers/RegisterController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dtos/IdentityDtos/RegisterDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/Register/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BusinessLayer/bin/Debug/net8.0/BusinessLayer.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/../BusinessLayer/bin/Debug/net8.0/BusinessLayer.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BusinessLayer/bin/Debug/net8.0/BusinessLayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BusinessLayer/bin/Debug/net8.0/BusinessLayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BusinessLayer/bin/Debug/net8.0/BusinessLayer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BusinessLayer/bin/Debug/net8.0/BusinessLayer.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BusinessLayer/bin/Debug/net8.0/DTOLayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BusinessLayer/bin/Debug/net8.0/DTOLayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BusinessLayer/bin/Debug/net8.0/DTOLayer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BusinessLayer/bin/Debug/net8.0/DTOLayer.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BusinessLayer/bin/Debug/net8.0/DataAccessLayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BusinessLayer/bin/Debug/net8.0/DataAccessLayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BusinessLayer/bin/Debug/net8.0/DataAccessLayer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BusinessLayer/bin/Debug/net8.0/DataAccessLayer.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BusinessLayer/bin/Debug/net8.0/EntityLayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BusinessLayer/bin/Debug/net8.0/EntityLayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BusinessLayer/bin/Debug/net8.0/EntityLayer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BusinessLayer/bin/Debug/net8.0/EntityLayer.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BusinessLayer/obj/BusinessLayer.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../BusinessLayer/obj/BusinessLayer.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BusinessLayer/obj/BusinessLayer.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/../BusinessLayer/obj/BusinessLayer.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BusinessLayer/obj/Debug/net8.0/BusinessLayer.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BusinessLayer/obj/Debug/net8.0/BusinessLayer.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BusinessLayer/obj/Debug/net8.0/BusinessLayer.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../BusinessLayer/obj/Debug/net8.0/BusinessLayer.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BusinessLayer/obj/Debug/net8.0/BusinessLayer.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../BusinessLayer/obj/Debug/net8.0/BusinessLayer.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BusinessLayer/obj/Debug/net8.0/BusinessLayer.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../BusinessLayer/obj/Debug/net8.0/BusinessLayer.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BusinessLayer/obj/Debug/net8.0/BusinessLayer.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../BusinessLayer/obj/Debug/net8.0/BusinessLayer.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BusinessLayer/obj/Debug/net8.0/BusinessLayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BusinessLayer/obj/Debug/net8.0/BusinessLayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BusinessLayer/obj/Debug/net8.0/BusinessLayer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BusinessLayer/obj/Debug/net8.0/BusinessLayer.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BusinessLayer/obj/Debug/net8.0/BusinessLayer.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/../BusinessLayer/obj/Debug/net8.0/BusinessLayer.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BusinessLayer/obj/Debug/net8.0/ref/BusinessLayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BusinessLayer/obj/Debug/net8.0/ref/BusinessLayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BusinessLayer/obj/Debug/net8.0/refint/BusinessLayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BusinessLayer/obj/Debug/net8.0/refint/BusinessLayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BusinessLayer/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../BusinessLayer/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BusinessLayer/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../BusinessLayer/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BusinessLayer/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../BusinessLayer/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BusinessLayer/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../BusinessLayer/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DTOLayer/bin/Debug/net8.0/DTOLayer.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/../DTOLayer/bin/Debug/net8.0/DTOLayer.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DTOLayer/bin/Debug/net8.0/DTOLayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../DTOLayer/bin/Debug/net8.0/DTOLayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DTOLayer/bin/Debug/net8.0/DTOLayer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../DTOLayer/bin/Debug/net8.0/DTOLayer.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DTOLayer/bin/Debug/net8.0/EntityLayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../DTOLayer/bin/Debug/net8.0/EntityLayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DTOLayer/bin/Debug/net8.0/EntityLayer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../DTOLayer/bin/Debug/net8.0/EntityLayer.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DTOLayer/obj/DTOLayer.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../DTOLayer/obj/DTOLayer.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DTOLayer/obj/DTOLayer.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../DTOLayer/obj/DTOLayer.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DTOLayer/obj/DTOLayer.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/../DTOLayer/obj/DTOLayer.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DTOLayer/obj/Debug/net8.0/DTOLayer.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../DTOLayer/obj/Debug/net8.0/DTOLayer.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DTOLayer/obj/Debug/net8.0/DTOLayer.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../DTOLayer/obj/Debug/net8.0/DTOLayer.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DTOLayer/obj/Debug/net8.0/DTOLayer.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../DTOLayer/obj/Debug/net8.0/DTOLayer.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DTOLayer/obj/Debug/net8.0/DTOLayer.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../DTOLayer/obj/Debug/net8.0/DTOLayer.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DTOLayer/obj/Debug/net8.0/DTOLayer.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../DTOLayer/obj/Debug/net8.0/DTOLayer.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DTOLayer/obj/Debug/net8.0/DTOLayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../DTOLayer/obj/Debug/net8.0/DTOLayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DTOLayer/obj/Debug/net8.0/DTOLayer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../DTOLayer/obj/Debug/net8.0/DTOLayer.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DTOLayer/obj/Debug/net8.0/DTOLayer.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/../DTOLayer/obj/Debug/net8.0/DTOLayer.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DTOLayer/obj/Debug/net8.0/ref/DTOLayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../DTOLayer/obj/Debug/net8.0/ref/DTOLayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DTOLayer/obj/Debug/net8.0/refint/DTOLayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../DTOLayer/obj/Debug/net8.0/refint/DTOLayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DTOLayer/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../DTOLayer/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DTOLayer/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../DTOLayer/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DTOLayer/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../DTOLayer/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DTOLayer/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../DTOLayer/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataAccessLayer/Concrate/SignalRContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../DataAccessLayer/Concrate/SignalRContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataAccessLayer/DataAccessLayer.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../DataAccessLayer/DataAccessLayer.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataAccessLayer/Migrations/SignalRContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../DataAccessLayer/Migrations/SignalRContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataAccessLayer/bin/Debug/net8.0/DTOLayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../DataAccessLayer/bin/Debug/net8.0/DTOLayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataAccessLayer/bin/Debug/net8.0/DTOLayer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../DataAccessLayer/bin/Debug/net8.0/DTOLayer.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataAccessLayer/bin/Debug/net8.0/DataAccessLayer.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/../DataAccessLayer/bin/Debug/net8.0/DataAccessLayer.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataAccessLayer/bin/Debug/net8.0/DataAccessLayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../DataAccessLayer/bin/Debug/net8.0/DataAccessLayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataAccessLayer/bin/Debug/net8.0/DataAccessLayer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../DataAccessLayer/bin/Debug/net8.0/DataAccessLayer.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataAccessLayer/bin/Debug/net8.0/EntityLayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../DataAccessLayer/bin/Debug/net8.0/EntityLayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataAccessLayer/bin/Debug/net8.0/EntityLayer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../DataAccessLayer/bin/Debug/net8.0/EntityLayer.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataAccessLayer/obj/DataAccessLayer.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../DataAccessLayer/obj/DataAccessLayer.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataAccessLayer/obj/DataAccessLayer.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/../DataAccessLayer/obj/DataAccessLayer.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataAccessLayer/obj/Debug/net8.0/DataAccessLayer.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../DataAccessLayer/obj/Debug/net8.0/DataAccessLayer.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataAccessLayer/obj/Debug/net8.0/DataAccessLayer.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../DataAccessLayer/obj/Debug/net8.0/DataAccessLayer.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataAccessLayer/obj/Debug/net8.0/DataAccessLayer.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../DataAccessLayer/obj/Debug/net8.0/DataAccessLayer.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataAccessLayer/obj/Debug/net8.0/DataAccessLayer.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../DataAccessLayer/obj/Debug/net8.0/DataAccessLayer.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataAccessLayer/obj/Debug/net8.0/DataAccessLayer.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../DataAccessLayer/obj/Debug/net8.0/DataAccessLayer.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataAccessLayer/obj/Debug/net8.0/DataAccessLayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../DataAccessLayer/obj/Debug/net8.0/DataAccessLayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataAccessLayer/obj/Debug/net8.0/DataAccessLayer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../DataAccessLayer/obj/Debug/net8.0/DataAccessLayer.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataAccessLayer/obj/Debug/net8.0/DataAccessLayer.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/../DataAccessLayer/obj/Debug/net8.0/DataAccessLayer.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataAccessLayer/obj/Debug/net8.0/ref/DataAccessLayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../DataAccessLayer/obj/Debug/net8.0/ref/DataAccessLayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataAccessLayer/obj/Debug/net8.0/refint/DataAccessLayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../DataAccessLayer/obj/Debug/net8.0/refint/DataAccessLayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataAccessLayer/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../DataAccessLayer/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataAccessLayer/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../DataAccessLayer/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataAccessLayer/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../DataAccessLayer/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataAccessLayer/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../DataAccessLayer/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataAccessLayer/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../DataAccessLayer/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EntityLayer/EntityLayer.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../EntityLayer/EntityLayer.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EntityLayer/bin/Debug/net8.0/EntityLayer.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/../EntityLayer/bin/Debug/net8.0/EntityLayer.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EntityLayer/bin/Debug/net8.0/EntityLayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../EntityLayer/bin/Debug/net8.0/EntityLayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EntityLayer/bin/Debug/net8.0/EntityLayer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../EntityLayer/bin/Debug/net8.0/EntityLayer.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EntityLayer/obj/Debug/net8.0/EntityLayer.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../EntityLayer/obj/Debug/net8.0/EntityLayer.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EntityLayer/obj/Debug/net8.0/EntityLayer.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../EntityLayer/obj/Debug/net8.0/EntityLayer.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EntityLayer/obj/Debug/net8.0/EntityLayer.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../EntityLayer/obj/Debug/net8.0/EntityLayer.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EntityLayer/obj/Debug/net8.0/EntityLayer.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../EntityLayer/obj/Debug/net8.0/EntityLayer.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EntityLayer/obj/Debug/net8.0/EntityLayer.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../EntityLayer/obj/Debug/net8.0/EntityLayer.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EntityLayer/obj/Debug/net8.0/EntityLayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../EntityLayer/obj/Debug/net8.0/EntityLayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EntityLayer/obj/Debug/net8.0/EntityLayer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../EntityLayer/obj/Debug/net8.0/EntityLayer.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EntityLayer/obj/Debug/net8.0/EntityLayer.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/../EntityLayer/obj/Debug/net8.0/EntityLayer.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EntityLayer/obj/Debug/net8.0/ref/EntityLayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../EntityLayer/obj/Debug/net8.0/ref/EntityLayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EntityLayer/obj/Debug/net8.0/refint/EntityLayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../EntityLayer/obj/Debug/net8.0/refint/EntityLayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EntityLayer/obj/EntityLayer.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../EntityLayer/obj/EntityLayer.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EntityLayer/obj/EntityLayer.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../EntityLayer/obj/EntityLayer.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EntityLayer/obj/EntityLayer.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/../EntityLayer/obj/EntityLayer.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EntityLayer/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../EntityLayer/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EntityLayer/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../EntityLayer/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EntityLayer/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../EntityLayer/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EntityLayer/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../EntityLayer/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EntityLayer/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../EntityLayer/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SignalRApi/bin/Debug/net8.0/BusinessLayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../SignalRApi/bin/Debug/net8.0/BusinessLayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SignalRApi/bin/Debug/net8.0/BusinessLayer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../SignalRApi/bin/Debug/net8.0/BusinessLayer.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SignalRApi/bin/Debug/net8.0/DTOLayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../SignalRApi/bin/Debug/net8.0/DTOLayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SignalRApi/bin/Debug/net8.0/DTOLayer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../SignalRApi/bin/Debug/net8.0/DTOLayer.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SignalRApi/bin/Debug/net8.0/DataAccessLayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../SignalRApi/bin/Debug/net8.0/DataAccessLayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SignalRApi/bin/Debug/net8.0/DataAccessLayer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../SignalRApi/bin/Debug/net8.0/DataAccessLayer.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SignalRApi/bin/Debug/net8.0/EntityLayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../SignalRApi/bin/Debug/net8.0/EntityLayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SignalRApi/bin/Debug/net8.0/EntityLayer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../SignalRApi/bin/Debug/net8.0/EntityLayer.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SignalRApi/bin/Debug/net8.0/SignalRApi.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/../SignalRApi/bin/Debug/net8.0/SignalRApi.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SignalRApi/bin/Debug/net8.0/SignalRApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../SignalRApi/bin/Debug/net8.0/SignalRApi.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SignalRApi/bin/Debug/net8.0/SignalRApi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../SignalRApi/bin/Debug/net8.0/SignalRApi.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SignalRApi/obj/Debug/net8.0/SignalRApi.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../SignalRApi/obj/Debug/net8.0/SignalRApi.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SignalRApi/obj/Debug/net8.0/SignalRApi.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../SignalRApi/obj/Debug/net8.0/SignalRApi.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SignalRApi/obj/Debug/net8.0/SignalRApi.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../SignalRApi/obj/Debug/net8.0/SignalRApi.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SignalRApi/obj/Debug/net8.0/SignalRApi.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../SignalRApi/obj/Debug/net8.0/SignalRApi.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SignalRApi/obj/Debug/net8.0/SignalRApi.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../SignalRApi/obj/Debug/net8.0/SignalRApi.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SignalRApi/obj/Debug/net8.0/SignalRApi.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SignalRApi/obj/Debug/net8.0/SignalRApi.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SignalRApi/obj/Debug/net8.0/SignalRApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../SignalRApi/obj/Debug/net8.0/SignalRApi.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SignalRApi/obj/Debug/net8.0/SignalRApi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../SignalRApi/obj/Debug/net8.0/SignalRApi.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SignalRApi/obj/Debug/net8.0/SignalRApi.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/../SignalRApi/obj/Debug/net8.0/SignalRApi.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SignalRApi/obj/Debug/net8.0/ref/SignalRApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../SignalRApi/obj/Debug/net8.0/ref/SignalRApi.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SignalRApi/obj/Debug/net8.0/refint/SignalRApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../SignalRApi/obj/Debug/net8.0/refint/SignalRApi.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SignalRApi/obj/SignalRApi.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../SignalRApi/obj/SignalRApi.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SignalRApi/obj/SignalRApi.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/../SignalRApi/obj/SignalRApi.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SignalRApi/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../SignalRApi/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SignalRApi/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../SignalRApi/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SignalRApi/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../SignalRApi/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SignalRApi/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../SignalRApi/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignalRWebUI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SignalRWebUI.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/SignalRWebUI.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/SignalRWebUI.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/SignalRWebUI.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/SignalRWebUI.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/SignalRWebUI.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/SignalRWebUI.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/SignalRWebUI.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/SignalRWebUI.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/SignalRWebUI.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/SignalRWebUI.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/SignalRWebUI.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/SignalRWebUI.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/SignalRWebUI.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/obj/SignalRWebUI.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="36sX8xkgs55rhdm1MMsPviQJs3v" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9b1194e5-4856-4cf6-a202-9fb759a9916e" name="Changes" comment="" />
+      <created>1765796097545</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1765796097545</updated>
+      <workItem from="1765796098781" duration="2000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -313,6 +313,98 @@
       "PackagePath": "staticwebassets/Ready-Bootstrap-Dashboard-master/typography.html"
     },
     {
+      "Id": "/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/wwwroot/colorlib-regform-32/css/nunito-font.css",
+      "PackagePath": "staticwebassets/colorlib-regform-32/css/nunito-font.css"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/wwwroot/colorlib-regform-32/css/style.css",
+      "PackagePath": "staticwebassets/colorlib-regform-32/css/style.css"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/wwwroot/colorlib-regform-32/fonts/Nunito/Nunito-Black.ttf",
+      "PackagePath": "staticwebassets/colorlib-regform-32/fonts/Nunito/Nunito-Black.ttf"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/wwwroot/colorlib-regform-32/fonts/Nunito/Nunito-BlackItalic.ttf",
+      "PackagePath": "staticwebassets/colorlib-regform-32/fonts/Nunito/Nunito-BlackItalic.ttf"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/wwwroot/colorlib-regform-32/fonts/Nunito/Nunito-Bold.ttf",
+      "PackagePath": "staticwebassets/colorlib-regform-32/fonts/Nunito/Nunito-Bold.ttf"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/wwwroot/colorlib-regform-32/fonts/Nunito/Nunito-BoldItalic.ttf",
+      "PackagePath": "staticwebassets/colorlib-regform-32/fonts/Nunito/Nunito-BoldItalic.ttf"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/wwwroot/colorlib-regform-32/fonts/Nunito/Nunito-ExtraBold.ttf",
+      "PackagePath": "staticwebassets/colorlib-regform-32/fonts/Nunito/Nunito-ExtraBold.ttf"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/wwwroot/colorlib-regform-32/fonts/Nunito/Nunito-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets/colorlib-regform-32/fonts/Nunito/Nunito-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/wwwroot/colorlib-regform-32/fonts/Nunito/Nunito-ExtraLight.ttf",
+      "PackagePath": "staticwebassets/colorlib-regform-32/fonts/Nunito/Nunito-ExtraLight.ttf"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/wwwroot/colorlib-regform-32/fonts/Nunito/Nunito-ExtraLightItalic.ttf",
+      "PackagePath": "staticwebassets/colorlib-regform-32/fonts/Nunito/Nunito-ExtraLightItalic.ttf"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/wwwroot/colorlib-regform-32/fonts/Nunito/Nunito-Italic.ttf",
+      "PackagePath": "staticwebassets/colorlib-regform-32/fonts/Nunito/Nunito-Italic.ttf"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/wwwroot/colorlib-regform-32/fonts/Nunito/Nunito-Light.ttf",
+      "PackagePath": "staticwebassets/colorlib-regform-32/fonts/Nunito/Nunito-Light.ttf"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/wwwroot/colorlib-regform-32/fonts/Nunito/Nunito-LightItalic.ttf",
+      "PackagePath": "staticwebassets/colorlib-regform-32/fonts/Nunito/Nunito-LightItalic.ttf"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/wwwroot/colorlib-regform-32/fonts/Nunito/Nunito-Regular.ttf",
+      "PackagePath": "staticwebassets/colorlib-regform-32/fonts/Nunito/Nunito-Regular.ttf"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/wwwroot/colorlib-regform-32/fonts/Nunito/Nunito-SemiBold.ttf",
+      "PackagePath": "staticwebassets/colorlib-regform-32/fonts/Nunito/Nunito-SemiBold.ttf"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/wwwroot/colorlib-regform-32/fonts/Nunito/Nunito-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets/colorlib-regform-32/fonts/Nunito/Nunito-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/wwwroot/colorlib-regform-32/fonts/Nunito/OFL.txt",
+      "PackagePath": "staticwebassets/colorlib-regform-32/fonts/Nunito/OFL.txt"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/wwwroot/colorlib-regform-32/images/Pizza.jpg",
+      "PackagePath": "staticwebassets/colorlib-regform-32/images/Pizza.jpg"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/wwwroot/colorlib-regform-32/images/Pizza1.jpg",
+      "PackagePath": "staticwebassets/colorlib-regform-32/images/Pizza1.jpg"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/wwwroot/colorlib-regform-32/images/Sauce1.jpg",
+      "PackagePath": "staticwebassets/colorlib-regform-32/images/Sauce1.jpg"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/wwwroot/colorlib-regform-32/images/form-v6.jpg",
+      "PackagePath": "staticwebassets/colorlib-regform-32/images/form-v6.jpg"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/wwwroot/colorlib-regform-32/index.html",
+      "PackagePath": "staticwebassets/colorlib-regform-32/index.html"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/wwwroot/colorlib-regform-32/readme.txt",
+      "PackagePath": "staticwebassets/colorlib-regform-32/readme.txt"
+    },
+    {
       "Id": "/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },

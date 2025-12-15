@@ -10,3 +10,4 @@
 /Users/furkanturker/RiderProjects/UdemySignalRProject/EntityLayer/obj/Debug/net8.0/refint/EntityLayer.dll
 /Users/furkanturker/RiderProjects/UdemySignalRProject/EntityLayer/obj/Debug/net8.0/EntityLayer.pdb
 /Users/furkanturker/RiderProjects/UdemySignalRProject/EntityLayer/obj/Debug/net8.0/ref/EntityLayer.dll
+/Users/furkanturker/RiderProjects/UdemySignalRProject/EntityLayer/obj/Debug/net8.0/EntityLayer.csproj.AssemblyReference.cache
