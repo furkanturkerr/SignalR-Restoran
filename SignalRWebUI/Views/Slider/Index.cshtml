@@ -1,4 +1,4 @@
-@model List<SignalRWebUI.Dtos.FeatureDto.ResultFeatureDto>
+@model List<SignalRWebUI.Dtos.SliderDto.ResultSliderDto>
 
 @{
     Layout = "~/Views/AdminLayout/index.cshtml";
@@ -36,20 +36,20 @@
                             {
                                 
                                 <tr>
-                                    <td>@item.FeatureId</td>
-                                    <td>@item.Title1</td>
-                                    <td>@item.Title2</td>
-                                    <td>@item.Title3</td>
+                                    <td>@item.SliderId</td>
+                                    <td>@item.Tıtle1</td>
+                                    <td>@item.Tıtle2</td>
+                                    <td>@item.Tıtle3</td>
                                     <td>@item.Description1</td>
                                     <td>@item.Description2</td>
                                     <td>@item.Description3</td>
-                                    <td><a href="/Feature/DeleteFeature/@item.FeatureId" class="btn btn-outline-danger">Sil</a></td>
-                                    <td><a href="/Feature/UpdateFeature/@item.FeatureId" class="btn btn-outline-success">Güncelle</a></td>
+                                    <td><a href="/Slider/DeleteSlider/@item.SliderId" class="btn btn-outline-danger">Sil</a></td>
+                                    <td><a href="/Slider/UpdateSlider/@item.SliderId" class="btn btn-outline-success">Güncelle</a></td>
                                 </tr>
                             }
                             </tbody>
                         </table>
-                        <a href="/Feature/CreateFeature" class="btn btn-outline-dark">Öne Çıkan Alan Ekle</a>
+                        <a href="/Slider/CreateSlider" class="btn btn-outline-dark">Öne Çıkan Alan Ekle</a>
                     </div>
                 </div>
             </div>

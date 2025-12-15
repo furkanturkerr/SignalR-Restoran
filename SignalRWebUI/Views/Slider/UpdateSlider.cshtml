@@ -1,4 +1,4 @@
-@model SignalRWebUI.Dtos.FeatureDto.CreateFeatureDto
+@model SignalRWebUI.Dtos.SliderDto.UpdateSliderDto
 
 @{
     Layout = "~/Views/AdminLayout/index.cshtml";
@@ -12,24 +12,25 @@
                 <form method="post">
                     <div class="card">
                         <div class="card-header">
-                            <div class="card-title">Yeni Öne Çıkan Alan Girişi</div>
+                            <div class="card-title">Öne Çıkan Alan Güncelle</div>
                         </div>
+                        <input type="hidden" asp-for="SliderId"/>
                         <div class="card-body">
                             <div class="form-group">
-                                <label for="Title1">Başlık 1</label>
-                                <input type="text" class="form-control" asp-for="Title1" id="Title1">
+                                <label for="Tıtle1">Başlık 1</label>
+                                <input type="text" class="form-control" asp-for="Tıtle1" id="Tıtle1">
                             </div>
                         </div>
                         <div class="card-body">
                             <div class="form-group">
-                                <label for="Title2">Başlık 2</label>
-                                <input type="text" class="form-control" asp-for="Title2" id="Title2">
+                                <label for="Tıtle2">Başlık 2</label>
+                                <input type="text" class="form-control" asp-for="Tıtle2" id="Tıtle2">
                             </div>
                         </div>
                         <div class="card-body">
                             <div class="form-group">
-                                <label for="Title3">Başlık 3</label>
-                                <input type="text" class="form-control" asp-for="Title3" id="Title3">
+                                <label for="Tıtle3">Başlık 3</label>
+                                <input type="text" class="form-control" asp-for="Tıtle3" id="Tıtle3">
                             </div>
                         </div>
                         <div class="card-body">
@@ -51,7 +52,7 @@
                             </div>
                         </div>
                         <div class="card-action">
-                            <button class="btn btn-primary">Öne Çıkan Alan Ekle</button>
+                            <button class="btn btn-primary">Öne Çıkan Alan Güncelle</button>
                         </div>
                     </div>
                 </form>
