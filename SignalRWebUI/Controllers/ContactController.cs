@@ -38,6 +38,8 @@ public class ContactController : Controller
     [HttpPost]
     public async Task<IActionResult> CreateContact(CreateContactDto createContactDto)
     {
+        createContactDto.OpendaysDescription = "Haftanın 7 Günü";
+        createContactDto.Opendays = "Çalışma Saatlerimiz";
         var client = _httpClientFactory.CreateClient();
         var JsonData = JsonConvert.SerializeObject(createContactDto);
         StringContent stringContent = new StringContent(JsonData, Encoding.UTF8, "application/json");
@@ -80,6 +82,8 @@ public class ContactController : Controller
     [HttpPost]
     public async Task<IActionResult> UpdateContact(UpdateContactDto updateContactDto)
     {
+        updateContactDto.OpendaysDescription = "Haftanın 7 Günü";
+        updateContactDto.Opendays = "Çalışma Saatlerimiz";
         var client = _httpClientFactory.CreateClient();
         var jsonData = JsonConvert.SerializeObject(updateContactDto);
         StringContent stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
