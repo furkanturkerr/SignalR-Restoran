@@ -2,6 +2,7 @@
 
 @{
     Layout = "~/Views/AdminLayout/index.cshtml";
+    int Count = 0;
 }
 
 <div class="content">
@@ -32,9 +33,9 @@
                             <tbody>
                             @foreach (var item in Model)
                             {
-                                
+                                Count++;
                                 <tr>
-                                    <td>@item.ProductId</td>
+                                    <td>@Count</td>
                                     <td>@item.ProductName</td>
                                     <td>@item.Price</td>
                                     <td>@item.CategoryName</td>
