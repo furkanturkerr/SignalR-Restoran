@@ -47,11 +47,9 @@ public class CategoryController : ControllerBase
     [HttpPost]
     public IActionResult CreateCategory(CreateCategoryDto createCategoryDto)
     {
-        _categoryService.TAdd(new Category()
-        {
-            CategoryName = createCategoryDto.CategoryName,
-            Status = true
-        });
+        createCategoryDto.Status = true;
+        var value = _mapper.Map<Category>(createCategoryDto);
+        _categoryService.TAdd(value);
         return Ok("Kategori eklendi");
     }
 
@@ -73,12 +71,8 @@ public class CategoryController : ControllerBase
     [HttpPut]
     public IActionResult UpdateCategory(UpdateCategoryDto updateCategoryDto)
     {
-        _categoryService.TUpdate(new Category()
-        {
-            CategoryName = updateCategoryDto.CategoryName,
-            CategoryId = updateCategoryDto.CategoryId,
-            Status = true
-        });
+        var value = _mapper.Map<Category>(updateCategoryDto);
+        _categoryService.TUpdate(value);
         return Ok("Kategori güncellendi");
     }
 }

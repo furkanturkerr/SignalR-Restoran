@@ -30,17 +30,8 @@ namespace SignalRApi.Controllers
         [HttpPost]
         public IActionResult CreateContact(CreateContactDto createContactDto)
         {
-            _contactService.TAdd(new Contact()
-            {
-                Location = createContactDto.Location,
-                FooterDescription = createContactDto.FooterDescription,
-                PhoneNumber = createContactDto.PhoneNumber,
-                Mail = createContactDto.Mail,
-                FooterTitle = createContactDto.FooterTitle,
-                Opendays = createContactDto.Opendays,
-                OpendaysDescription = createContactDto.OpendaysDescription,
-                OpenHours = createContactDto.OpenHours
-            });
+            var value = _mapper.Map<Contact>(createContactDto);
+            _contactService.TAdd(value);
             return Ok("İletişim bilgisi eklendi");
         }
 
@@ -56,24 +47,14 @@ namespace SignalRApi.Controllers
         public IActionResult GetContact(int id)
         {
             var value = _contactService.TGetById(id);
-            return Ok(value);
+            return Ok(_mapper.Map<GetContactDto>(value));
         }
 
         [HttpPut]
         public IActionResult UpdateContact(UpdateContactDto updateContactDto)
         {
-            _contactService.TUpdate(new Contact()
-            {
-                ContactId = updateContactDto.ContactId,
-                Location = updateContactDto.Location,
-                FooterDescription = updateContactDto.FooterDescription,
-                PhoneNumber = updateContactDto.PhoneNumber,
-                Mail = updateContactDto.Mail,
-                FooterTitle = updateContactDto.FooterTitle,
-                Opendays = updateContactDto.Opendays,
-                OpendaysDescription = updateContactDto.OpendaysDescription,
-                OpenHours = updateContactDto.OpenHours
-            });
+            var value = _mapper.Map<Contact>(updateContactDto);
+            _contactService.TUpdate(value);
             return Ok("İletişim bilgisi güncellendi");
         }
     }
