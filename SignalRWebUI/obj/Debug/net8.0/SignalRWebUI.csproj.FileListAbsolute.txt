@@ -65,9 +65,6 @@
 /Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/bin/Debug/net8.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
 /Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/bin/Debug/net8.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
 /Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/bin/Debug/net8.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
-/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/bin/Debug/net8.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
-/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/bin/Debug/net8.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
-/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
 /Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
 /Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
 /Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
@@ -88,3 +85,10 @@
 /Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/bin/Debug/net8.0/System.Security.Cryptography.Pkcs.dll
 /Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/bin/Debug/net8.0/System.Security.Cryptography.Xml.dll
 /Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/bin/Debug/net8.0/runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.dll
+/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/bin/Debug/net8.0/runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.dll
+/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/bin/Debug/net8.0/runtimes/win/lib/net7.0/System.Drawing.Common.dll
+/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/bin/Debug/net8.0/QRCoder.dll
+/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/bin/Debug/net8.0/QRCoder.Core.dll
+/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/bin/Debug/net8.0/SixLabors.ImageSharp.dll
+/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/bin/Debug/net8.0/zxing.dll
+/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/bin/Debug/net8.0/ZXing.Windows.Compatibility.dll

@@ -1,10 +1,11 @@
 using System.Text;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using CreateMessageDto = SignalRWebUI.Dtos.MessageDto.CreateMessageDto;
 
 namespace SignalRWebUI.Controllers;
-
+[AllowAnonymous]
 public class DefaultController : Controller
 {
     private readonly IHttpClientFactory _httpClientFactory;
