@@ -85,6 +85,27 @@ public class SignalRHub: Hub
         
         var value3 = _orderService.TActiveOrderCount();
         await Clients.All.SendAsync("ReceiveActiveOrderCount", value3);
+
+        var value4 = _productService.TProductPriceAvg();
+        await Clients.All.SendAsync("ReceiveProductPriceAvg", value4);
+
+        var value5 = _productService.TProductPriceByHamburger();
+        await Clients.All.SendAsync("ReceiveProductPriceByHamburger", value5);
+        
+        var value6 = _productService.TProductCountByCategoryNameDrink();
+        await Clients.All.SendAsync("ReceiveProductCountByCategoryNameDrink", value6);
+        
+        var value7 = _orderService.TTotalOrderCount();
+        await Clients.All.SendAsync("ReceiveTotalOrder", value7);
+        
+        var value8 = _categoryService.TCategoryCount();
+        await Clients.All.SendAsync("Recivecategorycount", value8);
+        
+        var value9 = _orderService.TLastOrderTotalPrice();
+        await Clients.All.SendAsync("RecivecaLastOrderTotalPrice", value9.ToString("0.00"+"₺"));
+        
+        var value10 = _productService.TProductPriceAvg();
+        await Clients.All.SendAsync("ReceiveProductPriceAvgs", value10.ToString("0.00"+"₺"));
     }
 
     public async Task GetBookingList()
