@@ -1,0 +1,21 @@
+@{
+    Layout = null; // Eğer layout kullanacaksan bunu sil veya kendi layoutunu ver
+}
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>404 | Sayfa Bulunamadı</title>
+    <link rel="stylesheet" href="~/css/404.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>404</h1>
+        <h2>Sayfa Bulunamadı</h2>
+        <p>Aradığın sayfa silinmiş, taşınmış ya da hiç var olmamış olabilir.</p>
+
+        <a href="@Url.Action("Index", "Default")">Ana Sayfaya Dön</a>
+    </div>
+</body>
+</html>
