@@ -92,3 +92,7 @@
 /Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/bin/Debug/net8.0/SixLabors.ImageSharp.dll
 /Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/bin/Debug/net8.0/zxing.dll
 /Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/bin/Debug/net8.0/ZXing.Windows.Compatibility.dll
+/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/bin/Debug/net8.0/BouncyCastle.Cryptography.dll
+/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/bin/Debug/net8.0/MailKit.dll
+/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/bin/Debug/net8.0/MimeKit.dll
+/Users/furkanturker/RiderProjects/UdemySignalRProject/SignalRWebUI/bin/Debug/net8.0/NETCore.MailKit.dll
