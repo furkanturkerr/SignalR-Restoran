@@ -6,7 +6,7 @@
           Our Menu
         </h2>
       </div>
-
+      
       <ul class="filters_menu">
         <li class="active" data-filter="*">Tümü</li>
         <li data-filter=".burger">Hamburger</li>
@@ -17,9 +17,9 @@
 
       <div class="filters-content">
         <div class="row grid">
-          @foreach (var item in Model)
+          @foreach (var item in Model.Take(9))
           {
-          <div class="col-sm-6 col-lg-4 all pizza">
+              <div class="col-sm-6 col-lg-4 all pizza">
             <div class="box">
               <div>
                 <div class="img-box">
