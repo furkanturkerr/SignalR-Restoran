@@ -1,4 +1,5 @@
 using AutoMapper;
+using DTOLayer.BookingDTO;
 using DTOLayer.CategoryDTO;
 using EntityLayer.Entities;
 
@@ -8,9 +9,9 @@ public class BookingMapping : Profile
 {
     public BookingMapping()
     {
-        CreateMap<Booking, ResultCategoryDto>().ReverseMap();
-        CreateMap<Booking, CreateCategoryDto>().ReverseMap();
-        CreateMap<Booking, UpdateCategoryDto>().ReverseMap();
-        CreateMap<Booking, GetCategoryDeto>().ReverseMap();
+        CreateMap<Booking, ResultBookingDto>().ReverseMap();
+        CreateMap<Booking, CreateBookingDto>().ReverseMap();
+        CreateMap<Booking, UpdateBookingDto>().ReverseMap();
+        CreateMap<Booking, GetBookingDto>().ReverseMap();
     }
 }

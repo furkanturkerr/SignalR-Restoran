@@ -2,6 +2,7 @@ using AutoMapper;
 using BusinessLayer.Abstract;
 using DTOLayer.BookingDTO;
 using EntityLayer.Entities;
+using FluentValidation;
 using Microsoft.AspNetCore.Mvc;
 
 namespace SignalRApi.Controllers;
@@ -11,9 +12,11 @@ public class BookingController : Controller
 {
     private readonly IBookingService _bookingService;
     private readonly IMapper _mapper;
-    public BookingController(IBookingService bookingService, IMapper mapper)
+    private readonly IValidator<CreateBookingDto> _validator;
+    public BookingController(IBookingService bookingService, IMapper mapper, IValidator<CreateBookingDto> validator)
     {
         _bookingService = bookingService;
+        _validator = validator;
         _mapper = mapper;
     }
     
@@ -27,6 +30,8 @@ public class BookingController : Controller
     [HttpPost]
     public IActionResult CreateBooking(CreateBookingDto createBookingDto)
     {
+        var validationResult = _validator.Validate(createBookingDto);
+        if (!validationResult.IsValid) return BadRequest(validationResult.Errors);
         var values = _mapper.Map<Booking>(createBookingDto);
         _bookingService.TAdd(values);
         return Ok("Rezervasyon Yapıldı");

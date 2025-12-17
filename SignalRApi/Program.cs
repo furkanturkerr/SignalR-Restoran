@@ -2,9 +2,11 @@ using System.Reflection;
 using System.Text.Json.Serialization;
 using BusinessLayer.Abstract;
 using BusinessLayer.Concrate;
+using BusinessLayer.ValidationRules.BookingValidations;
 using DataAccessLayer.Abstract;
 using DataAccessLayer.Concrate;
 using DataAccessLayer.EntityFramework;
+using FluentValidation;
 using SignalRApi.Hubs;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -60,6 +62,8 @@ builder.Services.AddScoped<INotificationService, NotificationManager>();
 builder.Services.AddScoped<INotificationDal, EfNotificationDal>();
 builder.Services.AddScoped<IMessageDal, EfMessageDal>();
 builder.Services.AddScoped<IMessageService, MessageManager>();
+
+builder.Services.AddValidatorsFromAssemblyContaining<CreateBookingValidations>();
 
 // Source - https://stackoverflow.com/a/70054135
 // Posted by Vicktor, modified by community. See post 'Timeline' for change history
