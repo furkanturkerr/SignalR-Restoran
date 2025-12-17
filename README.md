@@ -81,7 +81,7 @@ Modern .NET 8 mimarisi ile geliştirilen, çok katmanlı sipariş yönetimi.
 
 ---
 
-## 🥘 Tasty API (Yemek Tarifi Verileri)**
+## 🥘 **Tasty API (Yemek Tarifi Verileri)**
 
 <img width="2940" height="4320" alt="image" src="https://github.com/user-attachments/assets/141e95ef-aaaf-4e06-b8dd-461c6fe895e3" />
 
