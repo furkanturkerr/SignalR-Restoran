@@ -42,7 +42,7 @@
                     <h6>
                       @item.Price₺
                     </h6>
-                    <a style="cursor: pointer" onclick="showproductid(@item.ProductId)" id="@item.ProductId">
+                    <a href="#" style="cursor: pointer" onclick="showproductid(@item.ProductId, @ViewBag.v)">
                       <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve">
                         <g>
                           <g>
@@ -105,8 +105,8 @@
         </div>
       </div>
       <div class="btn-box">
-        <a href="/Baskets/Index">
-          Sepete Git
+        <a href="/Baskets/Index/@ViewBag.v">
+          Sepete Git (@ViewBag.v)
         </a>
       </div>
     </div>
@@ -127,15 +127,20 @@
     })
   }  *@
   
-  function showproductid(value){
-    var id = value;
+  function showproductid(productId, menuTableId){
     $.ajax({
-      type: "POST",
-      data: {item: id},
-      url: "/Menu/AddBasket/" + id,
-      contentType: "json",
-      success: function(){
-        swal("Seçilen Ürün ID:" + id, "Sepete Eklendi", "success");
+      type: 'POST',
+      url: "/Menu/AddBasket",
+      data: {
+        id: productId,
+        menuTableId: menuTableId 
+      },
+      success: function () {
+        swal("Seçilen Ürün ID:" + productId, "Seçtiğiniz Ürün Sepete Eklendi!", "success");
+      },
+      error: function (xhr, status, error) {
+        console.error("Hata:", error);
+        console.log("Yanıt:", xhr.responseText);
       }
     });
   }

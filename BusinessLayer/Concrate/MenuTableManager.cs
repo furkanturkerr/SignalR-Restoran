@@ -40,4 +40,14 @@ public class MenuTableManager : IMenuTableService
     {
         return _menuTableDal.MenuTableCount();
     }
+
+    public void TchangeMasaTablestatusTrue(int id)
+    {
+        _menuTableDal.changeMasaTablestatusTrue(id);
+    }
+
+    public void TchangeMasaTablestatusFalse(int id)
+    {
+        _menuTableDal.changeMasaTablestatusFalse(id);
+    }
 }

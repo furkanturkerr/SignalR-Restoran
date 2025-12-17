@@ -17,34 +17,44 @@ public class MenuController : Controller
     }
 
     // GET
-    public async Task<IActionResult> Index()
+    public async Task<IActionResult> Index(int id)
     {
+        ViewBag.v = id; 
         var client = _httpClientFactory.CreateClient();
-        var responsemessage = await client.GetAsync("http://localhost:5013/api/Product/ProductListWithCategory");
-        if (responsemessage.IsSuccessStatusCode)
-        {
-            var jsonData = await responsemessage.Content.ReadAsStringAsync();
-            var values = JsonConvert.DeserializeObject<List<ResultProductDto>>(jsonData);
-            return View(values);
-        }
-
-        return View(new List<ResultProductDto>());
+        var responseMessage = await client.GetAsync("http://localhost:5013/api/Product/ProductListWithCategory");
+        var jsonData = await responseMessage.Content.ReadAsStringAsync();
+        var values = JsonConvert.DeserializeObject<List<ResultProductDto>>(jsonData);
+        return View(values);
     }
     
     [HttpPost]
-    public async Task<IActionResult> AddBasket(int id)
+    public async Task<IActionResult> AddBasket(int id, int menuTableId)
     {
-        CreateBasketDto createBasketDto = new CreateBasketDto();
-        createBasketDto.ProductId = id;
+        if (menuTableId == 0)
+        {
+            return BadRequest("MenuTableId 0 geliyor.");
+        }
+
+        CreateBasketDto createBasketDto = new CreateBasketDto
+        {
+            ProductId = id,
+            MenuTableId = menuTableId 
+        };
+
         var client = _httpClientFactory.CreateClient();
-        var JsonData = JsonConvert.SerializeObject(createBasketDto);
-        StringContent stringContent = new StringContent(JsonData, Encoding.UTF8, "application/json");
-        var responsemessage = await client.PostAsync("http://localhost:5013/api/Basket", stringContent);
-        if (responsemessage.IsSuccessStatusCode)
+        var jsonData = JsonConvert.SerializeObject(createBasketDto);
+        StringContent stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
+        var responseMessage = await client.PostAsync("http://localhost:5013/api/Basket", stringContent);
+
+        var client2 = _httpClientFactory.CreateClient();
+        await client2.GetAsync("http://localhost:5013/api/MenuTable/ChangeMenuTableByStatusTrue?id=" + menuTableId);
+
+        if (responseMessage.IsSuccessStatusCode)
         {
             return RedirectToAction("Index");
         }
 
         return Json(createBasketDto);
+
     }
 }
