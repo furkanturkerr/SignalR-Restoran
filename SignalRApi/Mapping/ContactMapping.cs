@@ -9,8 +9,8 @@ public class ContactMapping : Profile
     public ContactMapping()
     {
         CreateMap<Contact, ResultContactDto>().ReverseMap();
-        CreateMap<Booking, UpdateContactDto>().ReverseMap();
-        CreateMap<Booking, CreateContactDto>().ReverseMap();
-        CreateMap<Booking, GetContactDto>().ReverseMap();
+        CreateMap<Contact, UpdateContactDto>().ReverseMap();
+        CreateMap<Contact, CreateContactDto>().ReverseMap();
+        CreateMap<Contact, GetContactDto>().ReverseMap();
     }
 }

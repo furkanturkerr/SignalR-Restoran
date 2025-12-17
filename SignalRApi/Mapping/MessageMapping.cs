@@ -8,9 +8,9 @@ public class MessageMapping : Profile
 {
     public MessageMapping()
     {
-        CreateMap<Message, CreateMessageDto>();
-        CreateMap<Message, ResultMessageDto>();
-        CreateMap<Message, UpdateMessageDto>();
-        CreateMap<Message, GetMessageDto>();
+        CreateMap<Message, CreateMessageDto>().ReverseMap();
+        CreateMap<Message, ResultMessageDto>().ReverseMap();
+        CreateMap<Message, UpdateMessageDto>().ReverseMap();
+        CreateMap<Message, GetMessageDto>().ReverseMap();
     }
 }
