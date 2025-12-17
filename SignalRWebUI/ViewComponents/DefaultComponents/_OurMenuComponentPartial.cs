@@ -22,7 +22,9 @@ public class _OurMenuComponentPartial : ViewComponent
         {
             var jsonData = await responsemessage.Content.ReadAsStringAsync();
             var values = JsonConvert.DeserializeObject<List<ResultProductDto>>(jsonData);
-            return View(values);
+            var sortedValues = values.OrderByDescending(x => x.ProductId).ToList();
+
+            return View(sortedValues);
         }
 
         return View(new List<ResultProductDto>());

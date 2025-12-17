@@ -24,7 +24,9 @@ public class MenuController : Controller
         var responseMessage = await client.GetAsync("http://localhost:5013/api/Product/ProductListWithCategory");
         var jsonData = await responseMessage.Content.ReadAsStringAsync();
         var values = JsonConvert.DeserializeObject<List<ResultProductDto>>(jsonData);
-        return View(values);
+        var sortedValues = values.OrderByDescending(x => x.ProductId).ToList();
+
+        return View(sortedValues);
     }
     
     [HttpPost]
