@@ -56,7 +56,7 @@ Modern .NET 8 mimarisi ile geliştirilen, çok katmanlı sipariş yönetimi.
 
 ---
 
-# 🔄 **SignalR (Canlı Veri Akışı) **
+# 🔄 **SignalR (Canlı Veri Akışı)**
 
 <img width="1453" height="737" alt="image" src="https://github.com/user-attachments/assets/b98196a9-7659-4456-8e2f-d43321afd400" />
 <img width="1469" height="735" alt="image" src="https://github.com/user-attachments/assets/f35c3e15-138c-4d58-944e-a1fc94622b7b" />
