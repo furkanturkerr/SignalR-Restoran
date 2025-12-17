@@ -17,7 +17,7 @@ public class _OurMenuComponentPartial : ViewComponent
     public async Task<IViewComponentResult> InvokeAsync()
     {
         var client = _httpClientFactory.CreateClient();
-        var responsemessage = await client.GetAsync("http://localhost:5013/api/Product");
+        var responsemessage = await client.GetAsync("http://localhost:5013/api/Product/ProductListWithCategory");
         if (responsemessage.IsSuccessStatusCode)
         {
             var jsonData = await responsemessage.Content.ReadAsStringAsync();
